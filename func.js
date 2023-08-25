@@ -852,15 +852,18 @@ document.getElementById("objToolsHinge").addEventListener("click", function () {
     objTarget.update();
 });
 
+// First loading or refreshing
 window.addEventListener("load", function () {
     document.getElementById('panel').style.transform = "translateX(200px)";
     document.getElementById('panel').addEventListener("transitionend", function () {
         document.getElementById('moveBox').style.transform = "translateX(-165px)";
         document.getElementById('zoomBox').style.transform = "translateX(-165px)";
     });
+
     if (!localStorage.getItem('history')) {
-        $('#recover').html("<p>Select a plan type.");
+        $('#recover').html("<p>Select a plan type.</P>");
     }
+    
     const myModal = new bootstrap.Modal($('#myModal'))
     myModal.show();
 });
