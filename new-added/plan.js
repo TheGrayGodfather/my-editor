@@ -240,3 +240,4 @@ const plan = {
   ],
   furniture_points: {},
 };
+

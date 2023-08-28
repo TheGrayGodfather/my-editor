@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,133 +22,133 @@
   <!-- full editor background -->
   <svg id="lin" viewBox="0 0 1100 700" preserveAspectRatio="xMidYMin slice" xmlns="http://www.w3.org/2000/svg"
     style="z-index:2;margin:0;padding:0;width:100vw;height:100vh;position:absolute;top:0;left:0;right:0;bottom:0">
-  
+
     <!-- reusable svg component -->
     <defs>
-  
+
       <!-- Red -->
       <linearGradient id="gradientRed" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">
         <stop offset="0%" stop-color="#e65d5e" stop-opacity="1" />
         <stop offset="100%" stop-color="#e33b3c" stop-opacity="1" />
       </linearGradient>
-  
+
       <!-- Yellow -->
       <linearGradient id="gradientYellow" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">
         <stop offset="0%" stop-color="#FDEB71" stop-opacity="1" />
         <stop offset="100%" stop-color="#F8D800" stop-opacity="1" />
       </linearGradient>
-  
+
       <!-- Green -->
       <linearGradient id="gradientGreen" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">
         <stop offset="0%" stop-color="#c0f7d9" stop-opacity="1" />
         <stop offset="100%" stop-color="#6ce8a3" stop-opacity="1" />
       </linearGradient>
-  
+
       <!-- Sky -->
       <linearGradient id="gradientSky" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">
         <stop offset="0%" stop-color="#c4e0f4" stop-opacity="1" />
         <stop offset="100%" stop-color="#87c8f7" stop-opacity="1" />
       </linearGradient>
-  
+
       <!-- Orange -->
       <linearGradient id="gradientOrange" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">
         <stop offset="0%" stop-color="#f9ad67" stop-opacity="1" />
         <stop offset="100%" stop-color="#f97f00" stop-opacity="1" />
       </linearGradient>
-  
+
       <!-- White -->
       <linearGradient id="gradientWhite" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">
         <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
         <stop offset="100%" stop-color="#f0f0f0" stop-opacity="1" />
       </linearGradient>
-  
+
       <!-- Grey -->
       <linearGradient id="gradientGrey" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">
         <stop offset="0%" stop-color="#666" stop-opacity="1" />
         <stop offset="100%" stop-color="#aaa" stop-opacity="1" />
       </linearGradient>
-  
+
       <!-- Blue -->
       <linearGradient id="gradientBlue" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">
         <stop offset="0%" stop-color="#4f72a6" stop-opacity="1" />
         <stop offset="100%" stop-color="#365987" stop-opacity="1" />
       </linearGradient>
-  
+
       <!-- Purple -->
       <linearGradient id="gradientPurple" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">
         <stop offset="0%" stop-color="#E2B0FF" stop-opacity="1" />
         <stop offset="100%" stop-color="#9F44D3" stop-opacity="1" />
       </linearGradient>
-  
+
       <!-- Pink -->
       <linearGradient id="gradientPink" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">
         <stop offset="0%" stop-color="#f6c4dd" stop-opacity="1" />
         <stop offset="100%" stop-color="#f699c7" stop-opacity="1" />
       </linearGradient>
-  
+
       <!-- Black -->
       <linearGradient id="gradientBlack" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">
         <stop offset="0%" stop-color="#3c3b3b" stop-opacity="1" />
         <stop offset="100%" stop-color="#000000" stop-opacity="1" />
       </linearGradient>
-  
+
       <!-- Natural -->
       <linearGradient id="gradientNeutral" x1="0%" y1="0%" x2="100%" y2="100%" spreadMethod="pad">
         <stop offset="0%" stop-color="#dbc6a0" stop-opacity="1" />
         <stop offset="100%" stop-color="#c69d56" stop-opacity="1" />
       </linearGradient>
-  
+
       <!-- Grass -->
       <pattern id="grass" patternUnits="userSpaceOnUse" width="256" height="256">
         <image
           xlink:href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWh5nEP_Trwo96CJjev6lnKe0_dRdA63RJFaoc3-msedgxveJd"
           x="0" y="0" width="256" height="256" />
       </pattern>
-  
+
       <!-- Wood -->
       <pattern id="wood" patternUnits="userSpaceOnUse" width="32" height="256">
         <image
           xlink:href="https://orig00.deviantart.net/e1f2/f/2015/164/8/b/old_oak_planks___seamless_texture_by_rls0812-d8x6htl.jpg"
           x="0" y="0" width="256" height="256" />
       </pattern>
-  
+
       <!-- Tiles -->
       <pattern id="tiles" patternUnits="userSpaceOnUse" width="25" height="25">
         <image
           xlink:href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrkoI2Eiw8ya3J_swhfpZdi_ug2sONsI6TxEd1xN5af3DX9J3R"
           x="0" y="0" width="256" height="256" />
       </pattern>
-  
+
       <!-- Granite -->
       <pattern id="granite" patternUnits="userSpaceOnUse" width="256" height="256">
         <image
           xlink:href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9_nEMhnWVV47lxEn5T_HWxvFwkujFTuw6Ff26dRTl4rDaE8AdEQ"
           x="0" y="0" width="256" height="256" />
       </pattern>
-  
+
       <!-- Small grid -->
       <pattern id="smallGrid" width="60" height="60" patternUnits="userSpaceOnUse">
         <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#777" stroke-width="0.25" />
       </pattern>
-  
+
       <!-- Grid made of "Small grid" -->
       <pattern id="grid" width="180" height="180" patternUnits="userSpaceOnUse">
         <rect width="180" height="180" fill="url(#smallGrid)" />
         <path d="M 200 10 L 200 0 L 190 0 M 0 10 L 0 0 L 10 0 M 0 190 L 0 200 L 10 200 M 190 200 L 200 200 L 200 190"
           fill="none" stroke="#999" stroke-width="0.8" />
       </pattern>
-  
+
       <!-- Hatch Shape -->
       <pattern id="hatch" width="5" height="5" patternTransform="rotate(50 0 0)" patternUnits="userSpaceOnUse">
         <path d="M 0 0 L 0 5 M 10 0 L 10 10 Z" style="stroke:#666;stroke-width:5;" />
       </pattern>
     </defs>
-  
+
     <!-- Background made of "Grid" -->
     <g id="boxgrid">
       <rect width="8000" height="5000" x="-3500" y="-2000" fill="url(#grid)" />
     </g>
-  
+
     <g id="boxpath"></g>
     <g id="boxSurface"></g>
     <g id="boxRoom"></g>
@@ -167,17 +168,17 @@
 
   <!-- Plan report tab -->
   <div id="reportTools" class="leftBox" style="width:500px;overflow-y: scroll;overflow-x: hidden">
-  
+
     <h2>
       <i class="fa fa-calculator" aria-hidden="true"></i> Report plan.
     </h2><br /><br />
     <h2 class="toHide" id="reportTotalSurface" style="display:none"></h2>
     <h2 class="toHide" id="reportNumberSurface" style="display:none"></h2>
-  
+
     <hr />
-  
+
     <section id="reportRooms" class="toHide" style="display:none"></section>
-  
+
     <button class="btn btn-info fully" style="margin-top:50px"
       onclick="$('#reportTools').hide('500', function(){$('#panel').show(300);});mode = 'select_mode';">
       <i class="fa fa-2x fa-backward" aria-hidden="true"></i>
@@ -186,21 +187,21 @@
 
   <!-- This is a "wallTool left sidebar" visible after dabble click on wall  -->
   <div id="wallTools" class="leftBox">
-  
+
     <h2 id="titleWallTools">Modify the wall</h2>
-  
+
     <hr />
-  
+
     <!-- wall width modification section -->
     <section id="rangeThick">
       <p>
         Width [<span id="wallWidthScale"></span>] : <span id="wallWidthVal"></span> cm</span>
       </p>
-  
+
       <!-- Increase or decrease the width -->
       <input type="range" id="wallWidth" step="0.1" class="range" />
     </section>
-  
+
     <!-- wall cutting section -->
     <ul class="list-unstyled">
       <section id="cutWall">
@@ -208,7 +209,7 @@
           Cut the wall :<br />
           <small>A cut will be made at each wall encountered.</small>
         </p>
-  
+
         <!-- this button cut the wall -->
         <li>
           <button class="btn btn-light shadow fully" onclick="editor.splitWall();">
@@ -216,14 +217,14 @@
           </button>
         </li>
       </section><br />
-  
+
       <!-- Wall separation section -->
       <section id="separate">
         <p>
           Separation wall :<br />
           <small>Transform the wall into simple separation line.</small>
         </p>
-  
+
         <!-- this button change the wall to a line by this you can resize the area of room -->
         <li>
           <button class="btn btn-light shadow fully" onclick="editor.invisibleWall();" id="wallInvisible">
@@ -231,7 +232,7 @@
           </button>
         </li>
       </section>
-  
+
       <!-- wall transform section -->
       <!-- Default it is display none. Visible after "separate section" executed -->
       <section id="recombine">
@@ -239,7 +240,7 @@
           Transform to wall :<br />
           <small>The thickness will be identical to the last known.</small>
         </p>
-  
+
         <!-- This button converts line created by "separate section" to wall once again -->
         <li>
           <button class="btn btn-light shadow fully" onclick="editor.visibleWall();" id="wallVisible">
@@ -247,14 +248,14 @@
           </button>
         </li>
       </section><br />
-  
+
       <!-- This button delete wall after selection -->
       <li>
         <button class="btn btn-danger fully" id="wallTrash">
           <i class="fa fa-2x fa-trash" aria-hidden="true"></i>
         </button>
       </li>
-  
+
       <!-- This button change "select mode" to "normal mode" and return to "tool panel"-->
       <li>
         <button class="btn btn-info fully" style="margin-top:50px"
@@ -262,30 +263,30 @@
           <i class="fa fa-2x fa-backward" aria-hidden="true"></i>
         </button>
       </li>
-  
+
     </ul>
   </div>
 
-  <!-- This a "left side bar for additional object" --> 
+  <!-- This a "left side bar for additional object" -->
   <!-- it will open after you add one item from "energy" and double click on that item -->
   <div id="objBoundingBox" class="leftBox">
     <h2>Modify object</h2>
-  
+
     <hr />
-  
+
     <!-- Height and width -->
     <section id="objBoundingBoxScale">
       <p>
         Width [<span id="bboxWidthScale"></span>] : <span id="bboxWidthVal"></span> cm</span>
       </p>
       <input type="range" id="bboxWidth" step="1" class="range" />
-  
+
       <p>
         Length [<span id="bboxHeightScale"></span>] : <span id="bboxHeightVal"></span> cm</span>
       </p>
       <input type="range" id="bboxHeight" step="1" class="range" />
     </section>
-  
+
     <!-- Rotation of object -->
     <section id="objBoundingBoxRotation">
       <p>
@@ -293,7 +294,7 @@
       </p>
       <input type="range" id="bboxRotation" step="1" class="range" min="-180" max="180" />
     </section>
-  
+
     <!-- Number of step and counter -->
     <div id="stepsCounter" style="display:none;">
       <p>
@@ -302,7 +303,7 @@
       <button class="btn btn-info" id="bboxStepsAdd"><i class="fa fa-plus" aria-hidden="true"></i></button>
       <button class="btn btn-info" id="bboxStepsMinus"><i class="fa fa-minus" aria-hidden="true"></i></button>
     </div>
-  
+
     <!-- Color palate -->
     <div id="objBoundingBoxColor">
       <div class="color textEditorColor" data-type="gradientRed"
@@ -344,7 +345,7 @@
     </button>
   </div>
 
-  <!-- This a "left side bar for door and window" --> 
+  <!-- This a "left side bar for door and window" -->
   <!-- It will open after adding and double clicking on door / window -->
   <div id="objTools" class="leftBox">
     <h2>Modify door/window</h2>
@@ -357,7 +358,7 @@
       <li>
         <button class="btn btn-light shadow fully" id="objToolsHinge">Reverse hinges</button>
       </li>
-  
+
       <p>
         Width [<span id="doorWindowWidthScale"></span>] : <span id="doorWindowWidthVal"></span> cm</span>
       </p>
@@ -373,7 +374,8 @@
 
       <!-- Go back -->
       <li>
-        <button class="btn btn-info" style="margin-top:100px" onclick="fonc_button('select_mode');$('#boxinfo').html('Selection mode');$('#objTools').hide('100');$('#panel').show('200');binder.graph.remove();delete binder;rib();">
+        <button class="btn btn-info" style="margin-top:100px"
+          onclick="fonc_button('select_mode');$('#boxinfo').html('Selection mode');$('#objTools').hide('100');$('#panel').show('200');binder.graph.remove();delete binder;rib();">
           <i class="fa fa-2x fa-backward" aria-hidden="true"></i>
         </button>
       </li>
@@ -384,18 +386,20 @@
   <!-- This is a "Left sidebar for config room" -->
   <!-- To open this create room and click on "config room" -->
   <div id="roomTools" class="leftBox">
-    <span style="color:#08d">Home Rough Editor</span> estimated a surface of :<br/><b><span class="size"></span></b><br/><br/>
+    <span style="color:#08d">Home Rough Editor</span> estimated a surface of :<br /><b><span
+        class="size"></span></b><br /><br />
 
     <p>If you have the actual area, you can write it</p>
 
     <div class="input-group">
-      <input type="text" class="form-control" id="roomSurface"  placeholder="surface réelle" aria-describedby="basic-addon2">
+      <input type="text" class="form-control" id="roomSurface" placeholder="surface réelle"
+        aria-describedby="basic-addon2">
       <span class="input-group-addon" id="basic-addon2">m²</span>
-    </div><br/>
+    </div><br />
 
     <input type="hidden" id="roomName" value="" />
 
-    Wording :<br/>
+    Wording :<br />
     <select class="form-select" aria-label="Default select example" id="roomLabel">
       <option selected value="0">None</option>
       <option value="1">Lounge</option>
@@ -419,13 +423,13 @@
       <option value="19">Corridor</option>
       <option value="20">Garage</option>
       <option value="21">Clearance</option>
-    </select><br/><br/>
+    </select><br /><br />
 
     <!-- Surface selection for adding color -->
     Meter :
     <div class="funkyradio">
       <div class="funkyradio-success">
-        <input type="checkbox" name="roomShow" value="showSurface" id="seeArea" checked/>
+        <input type="checkbox" name="roomShow" value="showSurface" id="seeArea" checked />
         <label for="seeArea">Show the surface</label>
       </div>
     </div>
@@ -441,7 +445,7 @@
       </div>
     </div>
 
-    <hr/>
+    <hr />
 
     <!-- Color palate -->
     <p>Colors</p>
@@ -452,12 +456,14 @@
     <div class="roomColor" data-type="gradientBlue" style="background:linear-gradient(30deg,#4f72a6, #284d7e);"></div>
     <div class="roomColor" data-type="gradientGrey" style="background:linear-gradient(30deg,#666666, #aaaaaa);"></div>
     <div class="roomColor" data-type="gradientWhite" style="background:linear-gradient(30deg,#fafafa, #eaeaea);"></div>
-    <div class="roomColor" data-type="gradientOrange" style="background:linear-gradient(30deg, #f9ad67, #f97f00);"></div>
+    <div class="roomColor" data-type="gradientOrange" style="background:linear-gradient(30deg, #f9ad67, #f97f00);">
+    </div>
     <div class="roomColor" data-type="gradientPurple" style="background:linear-gradient(30deg,#a784d9, #8951da);"></div>
     <div class="roomColor" data-type="gradientPink" style="background:linear-gradient(30deg,#df67bd, #e22aae);"></div>
     <div class="roomColor" data-type="gradientBlack" style="background:linear-gradient(30deg,#3c3b3b, #000000);"></div>
-    <div class="roomColor" data-type="gradientNeutral" style="background:linear-gradient(30deg,#e2c695, #c69d56);"></div>
-    <br/><br/>
+    <div class="roomColor" data-type="gradientNeutral" style="background:linear-gradient(30deg,#e2c695, #c69d56);">
+    </div>
+    <br /><br />
 
     <!-- Materials -->
     <p>Matérials</p>
@@ -492,7 +498,7 @@
         <button class="btn disabled halfy " id="undo" title="undo">
           <i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
         </button>
-      
+
         <button class="btn disabled halfy pull-right" id="redo" title="redo">
           <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
         </button>
@@ -535,7 +541,8 @@
 
       <!-- MEASURE BUTTON -->
       <li>
-        <button class="btn btn-light shadow fully " id="distance_mode" data-toggle="tooltip" data-placement="right" title="Add a measurement">MEASURE</button>
+        <button class="btn btn-light shadow fully " id="distance_mode" data-toggle="tooltip" data-placement="right"
+          title="Add a measurement">MEASURE</button>
       </li>
 
       <!-- TEXT Button -->
@@ -558,7 +565,7 @@
         <button class="btn btn-light shadow fully " id="door_mode"
           onclick="$('.sub').hide();$('#door_list').toggle(200);$('#window_list').hide();">DOOR</button>
       </li>
-  
+
       <!-- WINDOW button dropdown box -->
       <div id="window_list" class="list-unstyled sub"
         style="box-shadow:2px 2px 3px #ccc;display:none;background:#fff;border-radius: 0 5px 5px 0; padding:10px;position:absolute;left:200px;width:150px">
@@ -612,7 +619,7 @@
             <button class="btn btn-light fully object" id="rj45">RJ45 plug</button>
             <button class="btn btn-light fully object" id="tv">Antenna plug</button>
           </div>
-      
+
           <div style="width:130px;float:left;padding:10px;margin:5px;border:1px solid #ddd;border-radius:5px">
             <p>Thermal</p>
             <button class="btn btn-light fully object" id="boiler">Boiler</button>
@@ -629,13 +636,13 @@
       </li>
       <!-- <li><button class="btn btn-light shadow fully " id="object_mode" onclick="$('.sub').hide();$('#object_list').toggle(200);">FURNITURE</button></li> -->
       <br />
-  
+
       <!-- LAYERS button -->
       <li>
         <button class="btn btn-light shadow fully " id="layer_mode"
           onclick="$('.sub').hide();$('#layer_list').toggle(200);">Layers</button>
       </li>
-  
+
       <!-- LAYERS dropdown box -->
       <div id="layer_list" class="list-unstyled sub"
         style="box-shadow:2px 2px 3px #ccc;display:none;background:#fff;border-radius: 0 5px 5px 0; padding:10px;position:absolute;left:200px;bottom:100px;width:200px">
@@ -668,25 +675,25 @@
           </div>
         </div>
       </div>
-  
+
       <!-- REPORT mode buttons -->
       <li>
         <button class="btn btn-light shadow halfy " id="report_mode" title="Show report">
           <i class="fa fa-calculator" aria-hidden="true"></i>
         </button>
-      
+
         <button class="btn btn-light shadow halfy pull-right"
           onclick="fullscreen();this.style.display='none';$('#nofull_mode').show();" id="full_mode" title="Full screen">
           <i class="fa fa-expand" aria-hidden="true"></i>
         </button>
-      
+
         <button class="btn btn-light shadow halfy pull-right" style="display:none"
-          onclick="outFullscreen();this.style.display='none';$('#full_mode').show();" id="nofull_mode" data-toggle="tooltip"
-          data-placement="right" title="Full screen">
+          onclick="outFullscreen();this.style.display='none';$('#full_mode').show();" id="nofull_mode"
+          data-toggle="tooltip" data-placement="right" title="Full screen">
           <i class="fa fa-compress" aria-hidden="true"></i>
         </button>
       <li>
-  
+
         <div style="clear:both"></div>
     </ul>
   </div>
@@ -695,7 +702,7 @@
   <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-lg  modal-dialog-centered" role="document">
       <div class="modal-content">
-        
+
         <div class="modal-header">
           <h4 class="modal-title" id="myModalLabel">Welcome Home Rough Editor v0.95</h4>
         </div>
@@ -703,8 +710,9 @@
         <div class="modal-body m-2">
           <div id="recover">
             <p>A plan exists in historical, would you like recover him ?</p>
-            <button class="btn btn-success shadow" data-bs-dismiss="modal" onclick="initHistory('recovery');">YES</button>
-            
+            <button class="btn btn-success shadow" data-bs-dismiss="modal"
+              onclick="initHistory('recovery');">YES</button>
+
             <hr />
 
             <p>Or are you prefer start a new plan ?</p>
@@ -712,17 +720,26 @@
 
           <!-- Plan images for select -->
           <div class="w-100 d-flex justify-content-center  flex-column gap-4 flex-md-row">
+            <!--onClick Empty editor -->
             <div class="boxMouseOver">
-              <img src="img/newPlanEmpty.jpg" class="img-fluid" onclick="initHistory();"
-                data-bs-dismiss="modal" />
+              <img src="img/newPlanEmpty.jpg" class="img-fluid" onclick="initHistory();" data-bs-dismiss="modal" />
             </div>
-            <div class=" boxMouseOver"><img src="img/newPlanSquare.jpg" class="img-fluid"
-                onclick="initHistory('newSquare');" data-bs-dismiss="modal" /></div>
 
-            <div class=" boxMouseOver">
-              <img src="img/newPlanL.jpg" class="img-fluid" onclick="initHistory('newL');"
-                data-bs-dismiss="modal" />
+            <!-- onClick Editor with square -->
+            <div class=" boxMouseOver"><img src="img/newPlanSquare.jpg" class="img-fluid"
+                onclick="initHistory('newSquare');" data-bs-dismiss="modal" />
             </div>
+
+            <!--onClick Editor with L shape -->
+            <div class=" boxMouseOver">
+              <img src="img/newPlanL.jpg" class="img-fluid" onclick="initHistory('newL');" data-bs-dismiss="modal" />
+            </div>
+
+            <!-- my JS -->
+            <div>
+              <button onclick="initHistory('SuperBolter')" data-bs-dismiss="modal">SuperBolter</button>
+            </div>
+            <!-- my JS -->
           </div>
         </div>
         <!-- <div class="modal-footer">
@@ -771,13 +788,13 @@
             style="color:#3c3b3b;background:linear-gradient(30deg,#3c3b3b, #000000);"></div>
           <div class="color textEditorColor" data-type="gradientNeutral"
             style="color:#e2c695;background:linear-gradient(30deg,#e2c695, #c69d56);"></div>
-          
+
           <div style="clear:both"></div>
 
           <hr />
 
           <p>Police size</p>
-          
+
           <!-- Change text size -->
           <input type="range" list="tickmarks" id="sizePolice" step="0.1" min="10" max="30" value="15" class="range"
             style="width:200px" />
@@ -801,10 +818,12 @@
   </div>
 
   <!-- MOVE box top-right -->
-  <div id="moveBox" style="position:absolute;right:-150px;top:10px;color:#08d;background:transparent;z-index:2;text-align:center;transition-duration: 0.2s;transition-timing-function: ease-in;">
+  <div id="moveBox"
+    style="position:absolute;right:-150px;top:10px;color:#08d;background:transparent;z-index:2;text-align:center;transition-duration: 0.2s;transition-timing-function: ease-in;">
 
     <p style="margin:0px 0 0 0;font-size:11px" onclick="document.location='https://github.com/ekymoz/homeRoughEditor'">
-      <img src="https://cdn4.iconfinder.com/data/icons/mathematics-doodle-3/48/102-128.png" width=20px /> Home Rough Editor
+      <img src="https://cdn4.iconfinder.com/data/icons/mathematics-doodle-3/48/102-128.png" width=20px /> Home Rough
+      Editor
     </p>
 
     <div class="pull-right" style="margin:10px">
@@ -841,7 +860,7 @@
   <!-- ZOOM box bottom-right -->
   <div id="zoomBox"
     style="position:absolute;z-index:100;right:-150px;bottom:20px;text-align:center;background:transparent;padding:0px;color:#fff;transition-duration: 0.2s;transition-timing-function: ease-in;">
-  
+
     <!-- ZOOM IN, ZOOM OUT -->
     <div class="pull-right" style="margin-right:10px">
       <button class="btn btn btn-light shadow zoom" data-zoom="zoomin" style="box-shadow:2px 2px 3px #ccc;">
@@ -851,27 +870,27 @@
         <i class="fa fa-minus" aria-hidden="true"></i>
       </button>
     </div>
-  
+
     <div style="clear:both"></div>
-  
+
     <!-- SIZE display -->
     <div id="scaleVal" class="pull-right"
       style="box-shadow:2px 2px 3px #ccc;width:60px;height:20px;background:#4b79aa;border-radius:4px;margin-right:10px">
       1m
     </div>
-  
+
     <div style="clear:both"></div>
   </div>
 </body>
-  <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-  <script src="mousewheel.js"></script>
-  <script src="func.js"></script>
-  <script src="qSVG.js"></script>
-  <script src="editor.js"></script>
-  <script src="engine.js"></script>
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+  integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+  integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+<script src="mousewheel.js"></script>
+<script src="func.js"></script>
+<script src="qSVG.js"></script>
+<script src="editor.js"></script>
+<script src="engine.js"></script>
 
-  <!-- MY JS -->
-  <script src="./new-added/test_histry.js"></script>
 </html>
